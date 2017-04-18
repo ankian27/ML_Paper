@@ -132,20 +132,20 @@
                 % Signature Page is no longer required/needed by the Grad School
 		% \signaturepg   
 		\titlepg
-		\copyrightpg
-		\umdtprefixpg
-		\ackpg
-		\dedicationpg
+		%\copyrightpg
+		%\umdtprefixpg
+		%\ackpg
+		%\dedicationpg
 		\abstractpg
-		\tableofcontents
+		%\tableofcontents
 
 		\ifthenelse{\boolean{notables}}{}
 		{ % Tables?  
-			\listoftables \newpage
+			%\listoftables \newpage
 		}
 		\ifthenelse{\boolean{nofigures}}{}
 		{ % Figures?
-			\listoffigures \newpage
+			%\listoffigures \newpage
 		}    
 	}
 	\raggedbottom
@@ -165,29 +165,25 @@
 	\vspace*{\stretch{1}}
 	
 	\begin{center}
+	%\documentclass[24pt]
 		\@title
 	\end{center}
 	\vspace*{\stretch{2}}
 	
-	\begin{center}
-		A THESIS \\
-		SUBMITTED TO THE FACULTY OF THE GRADUATE SCHOOL \\
-		OF THE UNIVERSITY OF MINNESOTA \\
-		BY
-	\end{center}
-	\vspace*{\stretch{2}}
+	%\begin{center}
+	
+	%\end{center}
+	%\vspace*{\stretch{2}}
 	
 	\begin{center}
 		\@author
 	\end{center}
 	\vspace*{\stretch{2}}
 
-	\begin{center}
-		IN PARTIAL FULFILLMENT OF THE REQUIREMENTS \\
-		FOR THE DEGREE OF \\
-		MASTER OF SCIENCE
-	\end{center}
-	\vskip 2\li 
+	%\begin{center}
+		
+	%\end{center}
+	%\vskip 2\li 
 	
 	\begin{center}
 		\@advisor
@@ -268,12 +264,12 @@
 	\ifthenelse{\boolean{abstractpage}}
 	{ 
 		\begin{center}
-			Abstract
+			\LARGE \textbf{Abstract}
 		\end{center}
 		\doublespace
 		\input{\@abstractfile}
 		\vfill
-		\newpage
+		%\newpage
 	}
 	{}
 }

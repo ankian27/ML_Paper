@@ -1,30 +1,89 @@
 \chapter{Results}
 \label{chap:results}
 
-Your results.  This worked great.  Here's a plot to show how great it worked.  
+\vspace{1cm}
 
-\TODO{Need to get results!!!! Make sure to finish this!}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\linewidth]{images/goodData.png}
-\caption{Good data.}
-\label{fig:goodData}
-\end{figure} 
-
-We can reference the plot in Figure~\ref{fig:goodData}. Also, it's sometimes nice to include tables.
-
-\begin{table}
+%---------------------------------------------------------------------
+%Horizontal lines as row separators
 \begin{center}
-  \begin{tabular}{ | l | l | l | }
-    \hline
-    Variable & Condition 1 & Condition 2 \\ \hline
-    \(arc\) & 1.796 & 0.304 \\ \hline 
-    \(boo\) & 3.112 & 0.411 \\ \hline 
-    \(gar\) & 4.344 & 0.629 \\ 
-    \hline
-  \end{tabular}
+ \begin{tabular}{|c|c|c|c|c|} 
+ \hline
+ Algorithm & SC\% & BH\% & Acc\%  & MCC \\ [0.5ex] 
+ \hline\hline
+ Naive Bayes NB & 85.5\% & 1.2\% & 96.9\% & 0.869  \\ 
+ \hline
+ Naive Bayes Multinomial NB MN & 92.6\% & 1.0\% & 97.7\% & 0.902  \\ 
+ \hline
+ Boosted Naive Bayes BNB & 85.5\% & 1.2\% & 96.9\% & 0.869  \\ 
+ \hline
+ SVM & 81.6\% & 1.3\% & 96.3\% & 0.841  \\ 
+ \hline
+ SVM Stochastic Gradient Descent & 86\% & 0.6\% & 97.6\% & 0.896  \\ 
+ \hline
+ Voted Perceptron & 81.4\% & 1.6\% & 96\% & 0.829  \\ 
+ \hline
+ PART & 71.1\% & 3.1\% & 93.1\% & 0.710  \\ 
+ \hline
+ J48 & 58.7\% & 1.3\% & 92.9\% & 0.684  \\ 
+ \hline
+ 1NN & 63.5\% & 23\% & 84.4\% & 0.309  \\ 
+ \hline
+ 3NN & 43.9\% & 25.2\% & 80\% & 0.144 \\ [1ex] 
+ \hline
+ \end{tabular}
+ 
+      \small
+      \item Table 1 - The results when the the data is split 30\% and 70\% as 
+      Training and Test.
+    
+ 
 \end{center}
-\caption{Illustrates the relationship between variables and the related experiment conditions.}
-\label{tid:dataCond12}
-\end{table}
+
+%---------------------------------------------------------------------
+\vspace{1cm}
+
+%---------------------------------------------------------------------
+%Horizontal lines as row separators
+\begin{center}
+ \begin{tabular}{|c|c|c|c|c|} 
+ \hline
+ Algorithm & SC\% & BH\% & Acc\%  & MCC \\ [0.5ex] 
+ \hline\hline
+ Naive Bayes NB & 86.6\% & 1.5\% & 96.9\% & 0.865  \\ 
+ \hline
+ Naive Bayes Multinomial NB MN & 92.6\% & 1.0\% & 98.1\% & 0.918  \\ 
+ \hline
+ Bossted Naive Bayes BNB & 86.6\% & 1.5\% & 96.9\% & 0.865  \\ 
+ \hline
+ SVM & 75.5\% & 0\% & 96.8\% & 0.918  \\ 
+ \hline
+ SVM Stochastic Gradient Descent & 89.4\% & 0.1\% & 97.8\% & 0.903  \\ 
+ \hline
+ Voted Perceptron & 87.7\% & 1\% & 97.5\% & 0.890  \\ 
+ \hline
+ PART & 85\% & 1.5\% & 96.7\% & 0.856  \\ 
+ \hline
+ J48 & 80.9\% & 0.9\% & 96.6\% & 0.849  \\ 
+ \hline
+ 1NN & 66.3\% & 0.3\% & 95.3\% & 0.781  \\ 
+ \hline
+ 3NN & 49.3\% & 0\% & 93.7\% & 0.676 \\ [1ex] 
+ \hline
+ \end{tabular}
+ 
+      \small
+      \item Table 1 - The results when the the data is 10-fold cross-validated.
+    
+ 
+\end{center}
+%\begin{center}
+
+The quick brown fox jumps right over the lazy dog and the starting of the treat the dunsfj fksths dijfji sdifjs dfjsid d sddfsdf dsgjngs 
+kfsnfsdf dsf sdfsdfsd fsdf sdofkf sthe 
+%\end{center}
+
+ 
+%---------------------------------------------------------------------
+
+
+

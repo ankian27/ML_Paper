@@ -1,6 +1,15 @@
 % M.S. Computer Science Thesis
 \documentclass{umdthesis}
 
+\usepackage{setspace}
+
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{tabu}
+
+
 % This package will nag about old-style LaTeX use.  Feel free to
 % uncomment if you care about such issues.  \usepackage[l2tabu,
 % orthodox]{nag}
@@ -60,19 +69,20 @@
 % lets you mark sections you will come back to later.
 \newcommand{\TODO}[1]{\colorbox{yellow}{\textbf{TODO}: #1}}
 
-\title{Your Great Title For Your Thesis}
-\author{Pete Willemsen}
+\title{\textbf{\LARGE SMS Spam Filtering using WEKA}}
+\author{\Large Ankit Anand Gupta}
 
-\advisor{Professor Advisor Name}  
+\advisor{For CS 8751 - Advanced Machine Learning \vskip \li Dr. Richard Maclin }
+
+%\professor{Dr. Richard Maclin}  
 
 \copyrightyear{2017} 
 
-\ackfile{acknowledge} 
-\dedication{dedication}
+
 \abstractfile{abstract}
 
 \begin{document} 
- 
+
 	\frontmatter 
  
         % You could save some space when initially printing (if you
@@ -82,7 +92,9 @@
         % \singlespace
       
         % Ideally the Introduction to your thesis 
+  %\doublespacing      
 	\include{chap_intro} 
+
 	 
         % Any background necessary to understand your thesis.  This 
         % can also contain the related work too. 

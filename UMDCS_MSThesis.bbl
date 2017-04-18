@@ -1,0 +1,120 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{Drascic89}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=aaf996f9dc859a01b9468722b0f8a311}{Drascic}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=67f08a11541a8ffe372835835ccd9076}{Milgram}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=8386f4eed31b2ee774b116e8ba95d836}{Grodski}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=aaf996f9dc859a01b9468722b0f8a311}{Drascic}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=67f08a11541a8ffe372835835ccd9076}{Milgram}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=8386f4eed31b2ee774b116e8ba95d836}{Grodski}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{72a4e4ee92ae63b8cd1ff364f1ebaffa}
+      \strng{fullhash}{72a4e4ee92ae63b8cd1ff364f1ebaffa}
+      \field{sortinit}{D}
+      \field{labeltitle}{Learning effects in telemanipulation with monoscopic versus stereoscopic remote viewing}
+      \field{booktitle}{Systems, Man and Cybernetics, 1989. Conference Proceedings., IEEE International Conference on}
+      \field{month}{11}
+      \field{title}{Learning effects in telemanipulation with monoscopic versus stereoscopic remote viewing}
+      \field{year}{1989}
+      \field{pages}{1244\bibrangedash 1249 vol.3}
+      \verb{doi}
+      \verb 10.1109/ICSMC.1989.71502
+      \endverb
+      \keyw{closed circuit television;computerised materials handling;human factors;mobile robots;telecontrol;Fitts' law;closed circuit video system;learning effects;mobile explosive ordnance disposal robot;monoscopic viewing;repetitive approach-and-touch task;skill acquisition;speed/accuracy tradeoff task;stereoscopic remote viewing;telemanipulation;Aerospace industry;Cameras;Circuits;Defense industry;Displays;Environmental economics;Error analysis;Explosives;Industrial engineering;Mobile robots}
+    \endentry
+    \entry{Kreylos:2006:ESW:1128923.1128948}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=80fe645984771e13795a9f2935a3f231}{Kreylos}{K\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=735542631860bb6e5103b7d2eebad759}{Bawden}{B\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=4e1f69fbecd54993a7fda19a86257ea4}{Bernardin}{B\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b40bbc1acc83a4d73506143f8ca010e3}{Billen}{B\bibinitperiod}{Magali\bibnamedelima I.}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=04098f169cb4779aa0b290921bea899d}{Cowgill}{C\bibinitperiod}{Eric\bibnamedelima S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=6b4ee6ff27d89956960c7925540b16ad}{Gold}{G\bibinitperiod}{Ryan\bibnamedelima D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=cf9456543034e2f1ea8e7e13b291d974}{Hamann}{H\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=face12d9ba73aadfbf768c5968f47b57}{Jadamec}{J\bibinitperiod}{Margarete}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=52d62788a6c625749e50f194a3cb7b6a}{Kellogg}{K\bibinitperiod}{Louise\bibnamedelima H.}{L\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=f1fead466a118dca3641794e047d7a24}{Staadt}{S\bibinitperiod}{Oliver\bibnamedelima G.}{O\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ae4299d8cf3a8fccb314cddfb81df38}{Sumner}{S\bibinitperiod}{Dawn\bibnamedelima Y.}{D\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=80fe645984771e13795a9f2935a3f231}{Kreylos}{K\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=735542631860bb6e5103b7d2eebad759}{Bawden}{B\bibinitperiod}{Gerald}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=4e1f69fbecd54993a7fda19a86257ea4}{Bernardin}{B\bibinitperiod}{Tony}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b40bbc1acc83a4d73506143f8ca010e3}{Billen}{B\bibinitperiod}{Magali\bibnamedelima I.}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=04098f169cb4779aa0b290921bea899d}{Cowgill}{C\bibinitperiod}{Eric\bibnamedelima S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=6b4ee6ff27d89956960c7925540b16ad}{Gold}{G\bibinitperiod}{Ryan\bibnamedelima D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=cf9456543034e2f1ea8e7e13b291d974}{Hamann}{H\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=face12d9ba73aadfbf768c5968f47b57}{Jadamec}{J\bibinitperiod}{Margarete}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=52d62788a6c625749e50f194a3cb7b6a}{Kellogg}{K\bibinitperiod}{Louise\bibnamedelima H.}{L\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=f1fead466a118dca3641794e047d7a24}{Staadt}{S\bibinitperiod}{Oliver\bibnamedelima G.}{O\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=8ae4299d8cf3a8fccb314cddfb81df38}{Sumner}{S\bibinitperiod}{Dawn\bibnamedelima Y.}{D\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Hong Kong, China}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e36dde11516376eec7964604888d87f1}
+      \strng{fullhash}{e36dde11516376eec7964604888d87f1}
+      \field{sortinit}{K}
+      \field{labeltitle}{Enabling Scientific Workflows in Virtual Reality}
+      \field{booktitle}{Proceedings of the 2006 ACM International Conference on Virtual Reality Continuum and Its Applications}
+      \field{isbn}{1-59593-324-7}
+      \field{series}{VRCIA '06}
+      \field{title}{Enabling Scientific Workflows in Virtual Reality}
+      \field{year}{2006}
+      \field{pages}{155\bibrangedash 162}
+      \verb{doi}
+      \verb 10.1145/1128923.1128948
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1128923.1128948
+      \endverb
+      \keyw{geosciences,scientific visualization,virtual reality,workflow}
+    \endentry
+    \entry{Asawa:2008:TDT}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=37ad2868fb228b8cd9c647b5614512c2}{Takashi\bibnamedelima Asawa}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{Kazuaki\bibnamedelima Nakaohkubo}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{Akira\bibnamedelima Hoyanob}{A\bibinitperiod\bibinitdelim H\bibinitperiod}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=37ad2868fb228b8cd9c647b5614512c2}{Takashi\bibnamedelima Asawa}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{Kazuaki\bibnamedelima Nakaohkubo}{K\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{Akira\bibnamedelima Hoyanob}{A\bibinitperiod\bibinitdelim H\bibinitperiod}}%
+      }
+      \strng{namehash}{37ad2868fb228b8cd9c647b5614512c2}
+      \strng{fullhash}{37ad2868fb228b8cd9c647b5614512c2}
+      \field{sortinit}{T}
+      \field{labeltitle}{Thermal design tool for outdoor spaces based on heat balance simulation using a 3D-CAD system}
+      \field{journaltitle}{Building and Environment}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Thermal design tool for outdoor spaces based on heat balance simulation using a 3D-CAD system}
+      \field{volume}{43}
+      \field{year}{2007}
+      \field{pages}{2112\bibrangedash 2123}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
